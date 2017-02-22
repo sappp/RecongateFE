@@ -1,0 +1,101 @@
+[
+    {
+      "id": "6",
+      "name": "Schindler's List",
+      "releaseYear": "1993",
+      "imdbRating": "8.9",
+      "imdbRate": "6",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0108052",
+      "imageLink": "/6.png"
+
+    }, {
+      "id": "7",
+      "name": "Pulp Fiction",
+      "releaseYear": "1994",
+      "imdbRating": "8.9",
+      "imdbRate": "7",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0110912",
+      "imageLink": "/7.png"
+    },
+    {
+      "id": "8",
+      "name": "The Lord of the Rings: The Return of the King",
+      "releaseYear": "2003",
+      "imdbRating": "8.8",
+      "imdbRate": "8",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0167260/",
+      "imageLink": "/8.png"
+
+    }, {
+      "id": "9",
+      "name": "The Good, the Bad and the Ugly",
+      "releaseYear": "1966",
+      "imdbRating": "8.8",
+      "imdbRate": "9",
+      "imdbLink": "http://www.imdb.com/title/tt0060196",
+      "imageLink": "/9.png"
+    },
+    {
+      "id": "10",
+      "name": "Fight Club",
+      "releaseYear": "1999",
+      "imdbRating": "8.8",
+      "imdbRate": "10",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0137523",
+      "imageLink": "/10.png"
+
+    }, {
+      "id": "1",
+      "name": "The Shawshank Redemption",
+      "releaseYear": "1994",
+      "imdbRating": "9.3",
+      "imdbRate": "1",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0111161/",
+      "imageLink": "/1.png"
+    },
+    {
+      "id": "2",
+      "name": "The Godfather",
+      "releaseYear": "1972",
+      "imdbRating": "9.2",
+      "imdbRate": "2",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0068646",
+      "imageLink": "/2.png"
+
+    }, {
+      "id": "3",
+      "name": "The Godfather: Part II",
+      "releaseYear": "1974",
+      "imdbRating": "9.0",
+      "imdbRate": "3",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0071562",
+      "imageLink": "/3.png"
+    },
+    {
+      "id": "4",
+      "name": "The Dark Knight",
+      "releaseYear": "2008",
+      "imdbRating": "9.0",
+      "imdbRate": "4",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0468569/",
+      "imageLink": "/4.png"
+    }, {
+      "id": "5",
+      "name": "12 Angry Men",
+      "releaseYear": "1957",
+      "imdbRating": "8.9",
+      "imdbRate": "5",
+      "trailerLink": "",
+      "imdbLink": "http://www.imdb.com/title/tt0050083",
+      "imageLink": "/5.png"
+    }
+
+]

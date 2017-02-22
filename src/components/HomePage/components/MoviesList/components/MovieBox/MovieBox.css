@@ -1,0 +1,33 @@
+.movie-box {
+  background: white;
+  flex: 1 0 100%;
+  order: 2;
+  /*padding: 15px;*/
+  margin: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.26);
+}
+
+.movie-box-selected{
+
+}
+
+.movie-box.is-ref{
+  order: 1;
+}
+
+.movie-box-img {
+  width:100%;
+}
+.movie-box-info {
+  text-align: center;
+
+}
+.movie-box-info h1{
+  font-size: 1.5em;
+}
+
+/*.movie-box:hover{
+  margin-top: -12px;
+  transition: margin-top 100ms ease;
+}*/

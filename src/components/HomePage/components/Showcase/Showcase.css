@@ -1,0 +1,199 @@
+.Showcase {
+  background-color: #f5f5f5;
+}
+
+.showcase-background{
+  width: 100%;
+  position: relative;
+}
+
+.showcase-info {
+  position: absolute;
+  z-index: 9;
+  color: white;
+  bottom:30%;
+  left:10%;
+  text-transform: uppercase;
+
+}
+.showcase-info h1{
+  font-weight: 800;
+  font-size: 52px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  display: block;
+  width: 70%;
+}
+.showcase-info #rank {
+  font-size: 2.5em;
+}
+.showcase-info #more-info {
+  font-size: 15px;
+}
+
+.showcase-buttons {
+  position: absolute;
+  z-index: 10;
+  bottom:35%;
+  right: 10%;
+  list-style: none;
+}
+
+.showcase-buttons li a{
+  margin-top: 14px;
+
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn span.right, .btn span.left {
+    display: inline-block;
+    margin-right: 4px;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: top;
+    padding: 0 24px;
+    background-color: #B08A43;
+    background: -webkit-linear-gradient(right, #B08A43 50%,#CA9E4D 50%);
+    background: -moz-linear-gradient(right, #B08A43 50%,#CA9E4D 50%);
+    background: -o-linear-gradient(right, #B08A43 50%,#CA9E4D 50%);
+    background: linear-gradient(to left, #B08A43 50%,#CA9E4D 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    -webkit-transition: background-position 100ms ease;
+    -moz-transition: background-position 100ms ease;
+    transition: background-position 100ms ease;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.13);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.13);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.13);
+}
+
+.btn span.right {
+    -webkit-transition: background-position 100ms ease;
+    -moz-transition: background-position 100ms ease;
+    transition: background-position 100ms ease;
+    padding: 0;
+    position: relative;
+}
+.btn span.right span {
+    background-image: url(/right-arrow-small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: none;
+    transition: background-position 0.3s linear;
+
+}
+.btn span {
+    padding: 2px 26px;
+}
+
+.btn:hover span.left {
+    -webkit-transition: background-position 100ms ease;
+    -moz-transition: background-position 100ms ease;
+    transition: background-position 100ms ease;
+}
+.btn:hover span.right {
+    -webkit-transition: background-position 100ms 100ms ease;
+    -moz-transition: background-position 100ms 100ms ease;
+    transition: background-position 100ms 100ms ease;
+}
+.btn:hover span.right, .btn:hover span.left {
+    background-position: left bottom;
+}
+
+.btn:hover span.right span {
+  animation: animatedBackground 0.2s  linear;
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 50% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+.rightLeftArrows {
+  position: absolute;
+  top:40%;
+  z-index: 9;
+  width: 100%;
+  background: none;
+  cursor: pointer;
+}
+.rightLeftArrows .left{
+  left: 0;
+}
+
+
+.rightLeftArrows .right{
+  right: 0;
+}
+.rightLeftArrows .left span {
+  position: absolute;
+  background-image: url('/arrow_left.png');
+  background-position: no-repeat;
+  top: 40%;
+  left: 2%;
+  height: 33px;
+  width: 23px;
+  display: inline-block;
+}
+.rightLeftArrows .right span {
+  position: absolute;
+  background-image: url('/arrow_right.png');
+  background-position: no-repeat;
+  top: 40%;
+  right: 2%;
+  height: 33px;
+  width: 23px;
+  display: inline-block;
+}
+.gradient {
+  position: absolute;
+  height: 87.3%;
+    width: 100%;
+    z-index: 2;
+    background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.5));
+    background: -o-linear-gradient(transparent, rgba(0,0,0,0.5));
+    background: -moz-linear-gradient(transparent, rgba(0,0,0,0.5));
+    background: linear-gradient(transparent, rgba(0,0,0,0.5));
+}
+
+.triangle{
+  position: absolute;
+    bottom: 13%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    background: url(/movie-pointer.png) center center no-repeat;
+    margin: -4px 19px;
+}
+
+.right-triangle{
+  float: left;
+  z-index: 3;
+  margin-left: -20px;
+  width: 50%;
+  height: 20px;
+  background: #f5f5f5;
+}
+.left-triangle {
+  float: right;
+    margin-right: -20px;
+    z-index: 3;
+    width: 50%;
+    height: 20px;
+    background: #f5f5f5;
+}
